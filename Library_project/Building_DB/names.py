@@ -7,9 +7,8 @@
 '''
 
 from bs4 import BeautifulSoup as bs
-from operator import itemgetter
 from itertools import product
-import requests as req, os, re, random, time
+import requests as req, os, re, random
 
 ## Get the path of this file
 cur_dir = os.path.dirname(os.path.realpath(__file__))
