@@ -12,6 +12,4 @@ How did the top 20 largest economical countries fare against the Covid19 pandemi
 
 *Analysis:* [Jupyter notebook](Covid_19_analysis/Analysis.ipynb)
 
-------------------------------------------------------------------
-
 *Key findings:* under-development
