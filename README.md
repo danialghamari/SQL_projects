@@ -7,7 +7,11 @@ I also plan to add streamlit to create dashboards for further analysis.
 How did the top 20 largest economical countries fare against the Covid19 pandemic? 
 
 *Data source:* [Worldindata Covid-19 data](https://ourworldindata.org/covid-deaths)
+
 *How I created the DB:* [Jupyter notebook](Covid_19_analysis/creating_db.ipynb)
+
 *Analysis:* [Jupyter notebook](Covid_19_analysis/Analysis.ipynb)
+
+------------------------------------------------------------------
 
 *Key findings:* under-development
