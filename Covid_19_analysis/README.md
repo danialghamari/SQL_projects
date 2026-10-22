@@ -1,16 +1,19 @@
-# Analysis of various Trends for top 20 countries in GDP ranking during the Covid pandemic
-
-**Goal**: How did wealthy countries fair against the world wide pandemic? In particular, how different variables such as introducing nationwide vaccination, 
-
-**Data** is obtained from 
+# Analysis of various variables during the Covid pandemic, for top 20 countries in GDP ranking 
 
 *Work in progress*
 
-How did the top 20 largest economical countries fare against the Covid19 pandemic? 
+**Goal**: How did wealthy countries fair against the world wide pandemic? In particular, how variables such as nationwide vaccination, lockdowns, and etc, differ between counrties?
 
-*Data source:* [Worldindata Covid-19 data](https://ourworldindata.org/covid-deaths)
+*Data sources:* 
+1. [list of countries GDP](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal))
+   
+2. [list of countries GDP per capita](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population)
+  
+3. [Worldindata Covid-19 data](https://ourworldindata.org/covid-deaths)
 
-*How I created the DB:* [Jupyter notebook](Covid_19_analysis/creating_db.ipynb)
+*Creating the DB:* [Jupyter notebook](Covid_19_analysis/creating_db.ipynb)
 
 *Analysis:* [Jupyter notebook](Covid_19_analysis/Analysis.ipynb)
-*Key findings:* under-development
+
+# Findings
+
