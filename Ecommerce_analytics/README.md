@@ -8,5 +8,5 @@
 
 
 ## Notebooks
-*Analysis* [Jupyter Notebook](Analysis.ipynb)
+*Analysis* [Jupyter Notebook](./Analysis.ipynb)
 
