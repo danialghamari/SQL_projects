@@ -11,7 +11,7 @@ During and after the COVID-19 pandemic, we often heard vastly different and some
 4. National health, e.g., life expectancy and population growth
 
 To constrain my explorations and analysis, only the data (when available) regarding the top 20 countries in GDP ranking (Wikipedia) are obtained and stored. Meanwhile, since the population size can vastly affect the GDP, I reorder/rank the list according to the GDP per capita in a descending fashion (depicted in the figure below).
-[Country Ranking](Figures/Country_table.png)
+![Country Ranking](Figures/Country_table.png)
 - GDP is reported in millions of USD, and GDP per capita in USD (2025 value)
 - Data source: Wikipedia (obtained from World Bank)
 ## Results
