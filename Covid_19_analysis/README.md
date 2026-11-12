@@ -10,8 +10,12 @@ During and after the COVID-19 pandemic, we often heard vastly different and some
 3. Effects on the economy, e.g., GDP trends before and after the pandemic
 4. National health, e.g., life expectancy and population growth
 
-To constrain my explorations and analysis, only the data (when available) regarding the top 20 countries in GDP ranking (Wikipedia) are obtained and stored. Meanwhile, since the population size can vastly affect the GDP, I reorder/rank the list according to the GDP per capita in a descending fashion. One major aspect in my analysis to note is the Ukraine-Russia and USA-Iran wars.
+To constrain my explorations and analysis, only the data (when available) regarding the top 20 countries in GDP ranking (Wikipedia) are obtained and stored. Meanwhile, since the population size can vastly affect the GDP, I reorder/rank the list according to the GDP per capita in a descending fashion (depicted in the figure below).
+[Country Ranking](Figures/Country_table.png)
+- GDP is reported in millions of USD, and GDP per capita in USD (2025 value)
+- Data source: Wikipedia (obtained from World Bank)
 ## Results
+Note: Russia-Ukraine and Iran-US wars.
 ### A country's response to the pandemic
 ### Economy
 ### Education
@@ -43,6 +47,8 @@ To constrain my explorations and analysis, only the data (when available) regard
        - Death rate
        - Population
        - Life expectancy at birth
+         
+4. [Eurostat](https://ec.europa.eu/eurostat/web/main/data/database): Energy commodity in EU countries ()
 
 ## Data model
 
