@@ -1,22 +1,70 @@
-# Looking at various variables related to the Covid pandemic
+# Analyzing the effects of the pandemic in the top 20 GDP countries (up to Nov. 2026)
 
-**Goal**: How Covid pandemic developed in wealthy countries?
+*This project is still under development*
 
-Wealthy countries are considered those with highest GDP. However, since GDP is highly dependent on the population of a country, after obtain the list of top 20 countries, they are reordered using their GDP per capita. I believe this would be a more reliable way of comparison.
+## Goal
+During and after the COVID-19 pandemic, we often heard vastly different and sometimes contradictory views about its long-term impacts in areas such as education, the economy, and, of course, national health. I was curious to know that in 2026, after almost 4 years, when [WHO declared the end of the pandemic](https://doi.org/10.1016/j.jiph.2025.102698) on 5th of May 2023, what effects are still prevalent. I was particularly interested in understanding:
 
-Then, we take a look at general trends in number of cases, deaths, and how variables such as the introduction of vaccines affected these numbers.
+1. The country's response to the pandemic, e.g., the evolution of the number of new cases and deaths
+2. Effects on the national education systems, e.g., the number of children who exhibit educational difficulties
+3. Effects on the economy, e.g., GDP trends before and after the pandemic
+4. National health, e.g., life expectancy and population growth
 
-## Packages
-Pandas, Requests (for scraping wikipedia), Numpy, Matplotlib, Sqlalchemy.
+To constrain my explorations and analysis, only the data (when available) regarding the top 20 countries in GDP ranking (Wikipedia) are obtained and stored. Meanwhile, since the population size can vastly affect the GDP, I reorder/rank the list according to the GDP per capita in a descending fashion. One major aspect in my analysis to note is the Ukraine-Russia and USA-Iran wars.
+## Results
+### A country's response to the pandemic
+### Economy
+### Education
+### Health trends
 
 ## Data sources
-1. [Wikipedia's list of countries GDP](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal))
-   
-2. [Wikipedia's list of countries GDP per capita](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population)
 
-3. [Wikipedia's list of populations](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population)
+1. Wikipedia: [GDP (2026)](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)), [GDP per capita (2026)](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population), [Populations (2026)](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population)
   
-4. [Worldindata's Covid-19 data](https://ourworldindata.org/covid-deaths)
+2. [Worldindata's COVID-19 data](https://ourworldindata.org/covid-deaths): Number of new cases/deaths, Number of administered vaccines, Number of tests
+
+3. [WorldBank](https://data.worldbank.org/)
+
+    1. Economy:
+       - GDP
+       - Education expenditure
+       - Health expenditure
+       - Export value index
+       - Exports of goods and services (% of GDP)
+       - Labor force
+
+    2. Education:
+       - Educational attainment
+       - Number of students at various levels
+       - Share of youth not in education, employment, or training
+       - Unemployment with different levels of education (% of labor force)
+
+    4. Health:
+       - Death rate
+       - Population
+       - Life expectancy at birth
+
+## Data model
+
+## Summary of the Analysis
+### A country's response to the pandemic
+**Questions**:
+1. Evolution of new cases and deaths weekly from Jan. 2020 to May 2023
+2. Covid variants, infection waves, which country had it worst
+3. How fast did countries administer new tests and does it correlate with the registered new cases
+4. Can we identify any noticeable effect on the new cases/deaths based on the number of administered vaccinces
+5. 
+
+### Economy
+
+### Education
+
+### Health trends
+
+## Packages
+Pandas, Requests (for scraping and interacting with REST API), NumPy, Matplotlib, Sqlalchemy.
+
+
 
 
 ## Notebooks
