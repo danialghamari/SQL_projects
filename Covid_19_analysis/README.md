@@ -47,8 +47,11 @@ Note: Russia-Ukraine and Iran-US wars.
        - Death rate
        - Population
        - Life expectancy at birth
+       - Obesity (BMI-based)
+       - Suicide rate
+       - Alcohol consumption
          
-4. [Eurostat](https://ec.europa.eu/eurostat/web/main/data/database): Energy commodity in EU countries ()
+4. [Eurostat](https://ec.europa.eu/eurostat/web/main/data/database): Energy commodities (Gas and Electricity) prices in EU countries
 
 ## Data model
 
