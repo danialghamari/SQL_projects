@@ -54,7 +54,7 @@ Note: Russia-Ukraine and Iran-US wars.
 4. [Eurostat](https://ec.europa.eu/eurostat/web/main/data/database): Energy commodities (Gas and Electricity) prices in EU countries
 
 ## Data model
-
+A graph of the data model can be seen in [this figure](Figures/database_model.png)
 ## Summary of the Analysis
 ### A country's response to the pandemic
 **Questions**:
